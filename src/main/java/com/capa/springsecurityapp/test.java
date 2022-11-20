@@ -4,15 +4,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class hello {
-    @GetMapping("/hello")
+public class test {
+    @GetMapping("/test")
     public String sayHello(){
-        return "hello";
+        return "test";
     }
 
-    @GetMapping("/hello2")
+    @GetMapping("/testadmin")
     public String sayHello2(){
-        return "hello2";
+        return "testadmin";
     }
 
 }
